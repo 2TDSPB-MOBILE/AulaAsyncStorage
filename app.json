@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/logo-loja.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,10 +20,26 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.fernandopa12.AulaAsyncStorage"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "fff",
+          "image": "./assets/logo-loja.png",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d2391024-f863-401c-a91c-ea7ebdcf10ec"
+      }
     }
   }
 }
